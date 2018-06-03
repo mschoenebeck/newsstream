@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>newsstream</id>
+    <name>News Stream</name>
+    <summary>Facebook-like news stream from rss sources</summary>
+    <description><![CDATA[Like the news stream on Facebook this app generates a personal news stream based on news feeds from selected RSS sources. Each RSS source can have multiple tags which can be used as a filter mechanism for the news stream.]]></description>
+    <version>0.0.1</version>
+    <licence>agpl</licence>
+    <author mail="matthias.schoenebeck@gmail.com" homepage="http://cryptospace.ll.land">Matthias Schoenebeck</author>
+    <namespace>NewsStream</namespace>
+    <category>multimedia</category>
+    <category>organization</category>
+    <category>social</category>
+    <bugs>https://github.com/mschoenebeck/newsstream</bugs>
+    <dependencies>
+        <nextcloud min-version="13" max-version="13"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>News Stream</name>
+            <route>newsstream.page.index</route>
+        </navigation>
+    </navigations>
+</info>

@@ -1,0 +1,15 @@
+{
+    "name": "News Stream",
+    "description": "Facebook-like news stream from rss sources",
+    "type": "project",
+    "license": "AGPL",
+    "authors": [
+        {
+            "name": "Matthias Schoenebeck"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^5.4"
+    }
+}
